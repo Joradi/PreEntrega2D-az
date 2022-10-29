@@ -210,3 +210,46 @@ body{
       grid-template-columns: repeat(5, auto);
     }
   }
+  /* Contacto */
+  .form-contacto{
+    width: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 0.5em;
+  }
+  .contact-tittle{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+  }
+  .contacto{
+    width: 100%;
+    margin-bottom: 1.3em;
+    padding: 0.4em;
+    font-size: 17px;
+    border: none;
+  }
+  .contact-text{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  #boton{
+    background-color: #31384a;
+    color: white;
+    padding: 1.2em;
+  }
+  #boton:hover{
+    cursor: pointer;
+    background-color: #A61420;
+  }
+  @media(max-width:480px){
+    .form-contacto{
+      width: 100%;
+    }
+  }
