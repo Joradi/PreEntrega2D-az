@@ -79,3 +79,42 @@ body{
     color: black;
     border-radius: 0.5em;
 }
+/* Main */
+.main{
+    background-color: white;
+    padding: 0.3em;
+    margin-top: -2em;
+    border-radius: 0.2em;
+}
+.main-tittle{
+    text-align: center;
+    text-transform: uppercase;
+}
+@media(min-width: 768px){
+    .tienda{
+      display: flex;
+      gap: 1em;
+    }
+  }
+/* Cards */
+.card{
+    background-color: #A61420;
+    color: white;
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+.card-img{
+    width: 100%;
+}
+.card-body{
+    padding: 1em;
+}
+.card-body h5{
+    font-size: 1.5rem;
+    margin: 1em 0;
+    font-weight: 500;
+}
+.card-body p {
+    font-weight: 300;
+}
