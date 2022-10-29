@@ -178,3 +178,35 @@ body{
   .nosotros p{
     font-weight: 200;
   }
+  /* Tienda */
+
+  #content-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 8pt;
+  }
+  #content-container .product {
+    border: 1pt solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8pt;
+  }
+  #content .product > img {
+    width: 128px;
+  }
+@media screen and (max-width: 600px) {
+  #content-container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media screen and (min-width: 1024px) {
+    .centered-container {
+      width: 1024px;
+      margin: 0 auto;
+    }
+    #content-container {
+      grid-template-columns: repeat(5, auto);
+    }
+  }
