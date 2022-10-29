@@ -1,0 +1,37 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Clases Utilitarias */
+.container{
+    width: 80%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5em;
+    margin: 0 0.1em;
+    border-radius: 0.4em;
+}
+.btn-dark{
+    background-color: #F2C894;
+    color:black;
+}
+/* Header */
+
+.bg-header{
+    background-image: url('imagenes/bgHead.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 18.75em;
+}
